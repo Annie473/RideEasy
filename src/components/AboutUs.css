@@ -1,0 +1,63 @@
+/* About Page */
+.about-page {
+  padding: 80px 20px;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f2937, #243b55);
+  color: #f3f4f6;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading */
+.about-page h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ff6600;
+}
+
+/* Description */
+.about-page p {
+  max-width: 750px;
+  margin: 0 auto 50px auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #e4e4e4;
+}
+
+/* Cards Container */
+.about-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Individual Card */
+.about-card {
+  background: #ffffff10;
+  color: #fff;
+  padding: 25px 20px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.about-card h3 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #ff6b00;
+}
+
+.about-card p {
+  font-size: 16px;
+  color: #e4e4e4;
+  line-height: 1.6;
+}

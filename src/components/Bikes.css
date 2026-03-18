@@ -1,0 +1,146 @@
+.bike-section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bike-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+  color: #1f2937;
+  font-weight: 700;
+}
+
+.bike-subtitle {
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto 18px;
+  color: #475569;
+}
+
+.bike-controls {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr;
+  gap: 12px;
+  margin: 0 auto 22px;
+  max-width: 900px;
+}
+
+.bike-controls input,
+.bike-controls select {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 12px;
+  font-size: 14px;
+}
+
+.bike-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.bike-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  padding: 0 0 16px;
+}
+
+.bike-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.bike-card h3 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: #111827;
+}
+
+.bike-card p {
+  margin: 10px 0;
+  color: #6b7280;
+  font-weight: 500;
+  padding: 0 10px;
+}
+
+.bike-description {
+  min-height: 44px;
+}
+
+.availability-text {
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
+.bike-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.bike-card .btn {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.bike-card .btn:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+}
+
+.small-btn {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  background: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.small-btn:hover {
+  background: #eff6ff;
+}
+
+.bike-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.bike-card:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .bike-section {
+    padding: 40px 15px;
+  }
+
+  .bike-section h2 {
+    font-size: 2rem;
+  }
+
+  .bike-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .bike-actions {
+    flex-direction: column;
+  }
+}

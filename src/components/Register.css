@@ -1,0 +1,120 @@
+/* =======================
+   Register Page Styling
+======================= */
+
+
+
+/* Register Page Background */
+
+.register-page{
+  min-height: 100vh;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20231008/pngtree-d-render-of-bike-rental-display-outdoor-blackboard-with-white-classic-image_13526958.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Form Container */
+.form-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px 35px;
+  border-radius: 12px;
+  width: 380px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Heading */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #1f2937;
+  letter-spacing: 1px;
+}
+
+/* Input Fields */
+.form-container input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #ff6b00;
+  box-shadow: 0 0 6px rgba(255, 107, 0, 0.5);
+}
+
+/* Error Messages */
+.error {
+  color: #dc2626;
+  font-size: 13px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+/* Register Button */
+.form-container .btn {
+  width: 100%;
+  background: #ff6600;
+  color: white;
+  font-size: 16px;
+  padding: 12px 0;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-container .btn:hover {
+  background: #e65c00;
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Login Link */
+.form-container p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.form-container p a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.form-container p a:hover {
+  color: #e65c00;
+}
+
+/* Responsive */
+@media (max-width: 420px) {
+  .form-container {
+    width: 90%;
+    padding: 30px 20px;
+  }
+
+  .form-container h2 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,67 @@
+/* Contact Page Background */
+
+.contact-page{
+  min-height:100vh;
+  background-image:url("https://www.hirenride.com/contact-us");
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Contact Form Box */
+
+.contact-form{
+  background:white;
+  padding:40px;
+  width:380px;
+  border-radius:10px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+/* Heading */
+
+.contact-form h2{
+  margin-bottom:20px;
+  color:#1f2937;
+}
+
+/* Inputs */
+
+.contact-form input,
+.contact-form textarea{
+  width:100%;
+  padding:12px;
+  margin:10px 0;
+  border-radius:6px;
+  border:1px solid #ccc;
+  font-size:15px;
+}
+
+/* Button */
+
+.contact-form .btn{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:6px;
+  background:#2563eb;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.contact-form .btn:hover{
+  background:#1e40af;
+}
+
+/* Error */
+
+.error{
+  color:red;
+  font-size:13px;
+  margin:0;
+  text-align:left;
+}

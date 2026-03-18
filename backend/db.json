@@ -1,0 +1,396 @@
+{
+  "content": {
+    "home": {
+      "title": "RideEasy Bike Showroom and Rentals",
+      "subtitle": "Explore premium bikes for rental or complete purchase with instant booking, wishlist, and test-ride support.",
+      "primaryCtaLabel": "Explore Rentals",
+      "secondaryCtaLabel": "Shop Bikes"
+    },
+    "about": {
+      "title": "About RideEasy",
+      "description": "RideEasy is a digital bike showroom platform for rental and full purchase. Compare brands, shortlist your favorites, and place bookings online.",
+      "mission": "To make bike rental and ownership simple, transparent, and customer-friendly.",
+      "vision": "To become the most trusted online bike showroom for both short rides and long-term ownership.",
+      "whyChooseUs": "Popular brands, real-time inventory, smooth checkout, wishlist, and test-ride booking."
+    }
+  },
+  "bikes": [
+    {
+      "id": "rent-1",
+      "brand": "Yamaha",
+      "name": "Yamaha R15 V4",
+      "category": "Sport Bike",
+      "pricePerDay": 999,
+      "image": "https://imgd.aeplcdn.com/664x374/n/bw/models/colors/yamaha-select-model-metallic-red-1704802630538.png?q=80",
+      "description": "Aerodynamic styling with sharp handling for city and highway rides.",
+      "availabilityCount": 4
+    },
+    {
+      "id": "rent-2",
+      "brand": "Royal Enfield",
+      "name": "Royal Enfield Classic 350",
+      "category": "Cruiser",
+      "pricePerDay": 1200,
+      "image": "https://imgd.aeplcdn.com/1056x594/n/oxqqleb_1768251.jpg?q=80",
+      "description": "Iconic retro styling and comfortable long-distance riding.",
+      "availabilityCount": 4
+    },
+    {
+      "id": "rent-3",
+      "brand": "KTM",
+      "name": "KTM Duke 200",
+      "category": "Street Bike",
+      "pricePerDay": 1100,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/129743/duke-200-right-side-view.jpeg?isig=0&q=80",
+      "description": "Lightweight street machine with aggressive performance.",
+      "availabilityCount": 6
+    },
+    {
+      "id": "rent-4",
+      "brand": "Honda",
+      "name": "Honda CB Hornet 2.0",
+      "category": "City Bike",
+      "pricePerDay": 900,
+      "image": "https://bubhandari.net/wp-content/uploads/2020/09/Bike-1.jpg",
+      "description": "Comfortable commuter bike with sporty street looks.",
+      "availabilityCount": 5
+    },
+    {
+      "id": "rent-5",
+      "brand": "Bajaj",
+      "name": "Bajaj Dominar 400",
+      "category": "Touring Bike",
+      "pricePerDay": 1500,
+      "image": "https://cdn.bikedekho.com/processedimages/bajaj/2025-dominar-400/source/2025-dominar-40068d1482ef3d04.jpg",
+      "description": "Powerful tourer for highway cruising and weekend trips.",
+      "availabilityCount": 3
+    },
+    {
+      "id": "rent-6",
+      "brand": "Hero",
+      "name": "Hero Xpulse 200",
+      "category": "Adventure Bike",
+      "pricePerDay": 1050,
+      "image": "https://cdn.bikedekho.com/processedimages/hero/xpulse-200/source/xpulse-20068d23076426ed.jpg?tr=w-360",
+      "description": "Versatile machine for rough roads and adventure rides.",
+      "availabilityCount": 5
+    },
+    {
+      "id": "rent-7",
+      "brand": "Suzuki",
+      "name": "Suzuki Gixxer SF",
+      "category": "Sport Bike",
+      "pricePerDay": 980,
+      "image": "https://imgd.aeplcdn.com/1056x594/n/bw/models/colors/suzuki-select-model-metallic-triton-blue-1704087155338.png?q=80",
+      "description": "Fully faired sport commuter with balanced comfort.",
+      "availabilityCount": 4
+    },
+    {
+      "id": "rent-8",
+      "brand": "TVS",
+      "name": "TVS Apache RTR 200 4V",
+      "category": "Street Bike",
+      "pricePerDay": 950,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/44843/apache-rtr-200-4v-right-side-view.jpeg?isig=0&q=80",
+      "description": "Sharp streetfighter with good power and control.",
+      "availabilityCount": 5
+    },
+    {
+      "id": "rent-9",
+      "brand": "Kawasaki",
+      "name": "Kawasaki Ninja 300",
+      "category": "Sport Bike",
+      "pricePerDay": 1900,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/127223/ninja-300-right-side-view-2.png?isig=0&q=80",
+      "description": "Premium twin-cylinder sport bike for enthusiasts.",
+      "availabilityCount": 2
+    },
+    {
+      "id": "rent-10",
+      "brand": "BMW",
+      "name": "BMW G 310 R",
+      "category": "Roadster",
+      "pricePerDay": 2100,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/110157/g-310-r-right-side-view-2.jpeg?isig=0&q=80",
+      "description": "Premium naked roadster with modern German engineering.",
+      "availabilityCount": 2
+    }
+  ],
+  "saleBikes": [
+    {
+      "id": "sale-1",
+      "brand": "BMW",
+      "name": "BMW G 310 R",
+      "category": "Naked Roadster",
+      "price": 320000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/110157/g-310-r-right-side-view-2.jpeg?isig=0&q=80",
+      "description": "Premium entry-level BMW with modern electronics and sporty handling.",
+      "stockCount": 3,
+      "badge": "Hot Deal"
+    },
+    {
+      "id": "sale-2",
+      "brand": "Royal Enfield",
+      "name": "Royal Enfield Interceptor 650",
+      "category": "Classic Twin",
+      "price": 365000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/183389/interceptor-650-right-side-view-2.jpeg?isig=0&q=80",
+      "description": "Twin-cylinder retro machine with smooth highway performance.",
+      "stockCount": 3,
+      "badge": "Best Seller"
+    },
+    {
+      "id": "sale-3",
+      "brand": "Kawasaki",
+      "name": "Kawasaki Ninja 300",
+      "category": "Sport Tourer",
+      "price": 343000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/127223/ninja-300-right-side-view-2.png?isig=0&q=80",
+      "description": "Sporty full-faired bike ideal for enthusiasts and city riders.",
+      "stockCount": 2,
+      "badge": "Limited"
+    },
+    {
+      "id": "sale-4",
+      "brand": "TVS",
+      "name": "TVS Apache RTR 310",
+      "category": "Performance Street",
+      "price": 255000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/149123/apache-rtr-310-right-side-view-2.png?isig=0&q=80",
+      "description": "Feature-rich naked machine with aggressive style and quick response.",
+      "stockCount": 5,
+      "badge": "New Arrival"
+    },
+    {
+      "id": "sale-5",
+      "brand": "Honda",
+      "name": "Honda CB300R",
+      "category": "Neo Sports Cafe",
+      "price": 260000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/132191/cb300r-right-side-view-2.png?isig=0&q=80",
+      "description": "Lightweight premium roadster with refined urban performance.",
+      "stockCount": 4,
+      "badge": "Recommended"
+    },
+    {
+      "id": "sale-6",
+      "brand": "Suzuki",
+      "name": "Suzuki V-Strom SX",
+      "category": "Adventure Tourer",
+      "price": 215000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/104201/v-strom-sx-right-side-view-2.png?isig=0&q=80",
+      "description": "Comfortable and practical tourer for weekend getaways and city rides.",
+      "stockCount": 6,
+      "badge": "Value Pick"
+    },
+    {
+      "id": "sale-7",
+      "brand": "KTM",
+      "name": "KTM RC 390",
+      "category": "Track Sport",
+      "price": 355000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/111513/rc-390-right-side-view-2.jpeg?isig=0&q=80",
+      "description": "Track-inspired machine built for performance riders.",
+      "stockCount": 3,
+      "badge": "Performance"
+    },
+    {
+      "id": "sale-8",
+      "brand": "Yamaha",
+      "name": "Yamaha MT-03",
+      "category": "Naked Street",
+      "price": 460000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/163307/mt-03-right-side-view.png?isig=0&q=80",
+      "description": "Premium Yamaha streetfighter with sporty dynamics.",
+      "stockCount": 2,
+      "badge": "Premium"
+    },
+    {
+      "id": "sale-9",
+      "brand": "Bajaj",
+      "name": "Bajaj Pulsar NS400Z",
+      "category": "Street Performance",
+      "price": 195000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/160989/pulsar-ns400-right-side-view.png?isig=0&q=80",
+      "description": "Value-packed performance bike with daily usability.",
+      "stockCount": 5,
+      "badge": "Value Pick"
+    },
+    {
+      "id": "sale-10",
+      "brand": "Hero",
+      "name": "Hero Mavrick 440",
+      "category": "Roadster",
+      "price": 240000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/155561/mavrick-440-right-side-view.png?isig=0&q=80",
+      "description": "Comfortable modern roadster for city and weekend rides.",
+      "stockCount": 4,
+      "badge": "New"
+    },
+    {
+      "id": "sale-11",
+      "brand": "Triumph",
+      "name": "Triumph Speed 400",
+      "category": "Modern Classic",
+      "price": 246000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/131825/speed-400-right-side-view-2.png?isig=0&q=80",
+      "description": "Refined modern classic with premium road presence.",
+      "stockCount": 3,
+      "badge": "Trending"
+    },
+    {
+      "id": "sale-12",
+      "brand": "Ducati",
+      "name": "Ducati Monster",
+      "category": "Premium Naked",
+      "price": 1295000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/129039/monster-right-side-view-2.png?isig=0&q=80",
+      "description": "High-performance Italian naked bike with iconic styling.",
+      "stockCount": 1,
+      "badge": "Luxury"
+    }
+  ],
+  "usedListings": [
+    {
+      "id": "used-1",
+      "sellerId": "system-user",
+      "sellerName": "RideEasy Certified Seller",
+      "brand": "Honda",
+      "model": "CB350RS",
+      "year": 2023,
+      "city": "Hyderabad",
+      "kmsDriven": 12800,
+      "owners": 1,
+      "price": 195000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/115873/cb350rs-right-side-view-2.jpeg?isig=0&q=80",
+      "description": "Single-owner, company serviced, excellent condition with service record.",
+      "status": "Active",
+      "createdAt": "2026-03-18T06:40:00.000Z"
+    },
+    {
+      "id": "used-2",
+      "sellerId": "system-user",
+      "sellerName": "RideEasy Market Partner",
+      "brand": "Yamaha",
+      "model": "MT-15 V2",
+      "year": 2022,
+      "city": "Bengaluru",
+      "kmsDriven": 18200,
+      "owners": 1,
+      "price": 142000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/103795/mt-15-v2-right-side-view-2.png?isig=0&q=80",
+      "description": "Well-maintained street bike, insurance valid, non-accidental.",
+      "status": "Active",
+      "createdAt": "2026-03-18T06:41:00.000Z"
+    },
+    {
+      "id": "used-3",
+      "sellerId": "system-user",
+      "sellerName": "Verified Bike Owner",
+      "brand": "Royal Enfield",
+      "model": "Meteor 350",
+      "year": 2021,
+      "city": "Chennai",
+      "kmsDriven": 22400,
+      "owners": 2,
+      "price": 158000,
+      "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/183389/meteor-350-right-side-view-2.jpeg?isig=0&q=80",
+      "description": "Comfort cruiser with complete service history and new tyres.",
+      "status": "Active",
+      "createdAt": "2026-03-18T06:42:00.000Z"
+    },
+    {
+      "id": "f1a650d1-22be-441f-b751-0aad474454a4",
+      "sellerId": "718b3144-6241-44f8-9f1b-50484c1d4e84",
+      "sellerName": "aniltd",
+      "brand": "royal enfiled",
+      "model": "meteor 350",
+      "year": 2026,
+      "city": "Banguluru",
+      "kmsDriven": 20000,
+      "owners": 1,
+      "price": 153000,
+      "image": "https://th.bing.com/th/id/OIP.8pKhthq5prIYvI3RlcKx5AHaE8?w=340&h=186&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+      "description": "The Royal Enfield Meteor 350 features a smooth 349cc engine, comfortable cruiser seating, and a refined ride quality ideal for long journeys.",
+      "status": "Active",
+      "createdAt": "2026-03-18T07:22:43.346Z"
+    }
+  ],
+  "usedInterests": [],
+  "users": [
+    {
+      "id": "a3ae406d-000d-45c8-bdb9-96677c5b6b80",
+      "name": "Activity User",
+      "email": "activity.user@example.com",
+      "mobile": "9998887776",
+      "passwordHash": "dummy-auth",
+      "createdAt": "2026-03-18T06:43:34.750Z"
+    },
+    {
+      "id": "718b3144-6241-44f8-9f1b-50484c1d4e84",
+      "name": "aniltd",
+      "email": "aniltd",
+      "mobile": "0000000000",
+      "passwordHash": "dummy-auth",
+      "createdAt": "2026-03-18T07:19:29.115Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "1630711239b8cbd7bf7acbab191b6ff3d0eb41d9adb14368",
+      "userId": "a3ae406d-000d-45c8-bdb9-96677c5b6b80",
+      "createdAt": "2026-03-18T06:43:34.750Z"
+    },
+    {
+      "token": "3733c7e0bb7706dca6b7b3ad19ccde4fc3948eee1f88c05a",
+      "userId": "718b3144-6241-44f8-9f1b-50484c1d4e84",
+      "createdAt": "2026-03-18T07:19:29.115Z"
+    }
+  ],
+  "rentals": [
+    {
+      "id": "c47b75ef-81ba-4cce-b4cc-d5e17357f617",
+      "bikeId": "rent-1",
+      "userId": "a3ae406d-000d-45c8-bdb9-96677c5b6b80",
+      "bookedAt": "2026-03-18T06:43:34.865Z",
+      "status": "Booked"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "5c9dd39d-54d1-4125-b7ea-b58c8d7ab275",
+      "saleBikeId": "sale-1",
+      "userId": "a3ae406d-000d-45c8-bdb9-96677c5b6b80",
+      "purchasedAt": "2026-03-18T06:43:34.867Z",
+      "status": "Order Placed"
+    }
+  ],
+  "wishlist": [
+    {
+      "id": "f2db13f7-31bf-40e3-a95c-bdb243453ba7",
+      "userId": "a3ae406d-000d-45c8-bdb9-96677c5b6b80",
+      "itemType": "sale",
+      "itemId": "sale-2",
+      "createdAt": "2026-03-18T06:43:34.869Z"
+    }
+  ],
+  "testRides": [
+    {
+      "id": "e03db4f4-cc9e-499e-a590-b524b0bd4194",
+      "userId": "a3ae406d-000d-45c8-bdb9-96677c5b6b80",
+      "saleBikeId": "sale-3",
+      "preferredDate": "2026-03-28",
+      "status": "Requested",
+      "requestedAt": "2026-03-18T06:43:34.872Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "b279bafb-2759-4ed3-9785-552cc324e8dd",
+      "name": "anil",
+      "email": "anil@gmail.com",
+      "message": "Hi\nI want to talk.",
+      "createdAt": "2026-03-18T06:26:34.589Z"
+    }
+  ]
+}

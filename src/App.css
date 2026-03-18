@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 15px 40px;
+  background: #1f2937;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+.nav-user {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.nav-button {
+  background: #ff6600;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background: #e65c00;
+}
+
+.about-page {
+  padding: 100px 20px;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+}
+
+.about-page h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.about-page p {
+  max-width: 750px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #e4e4e4;
+  margin-bottom: 50px;
+}
+
+.about-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  background: white;
+  color: #333;
+  padding: 30px;
+  width: 270px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.about-card h3 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #ff6b00;
+}
+
+.about-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJvvHjCJpY6AwWyQBxW3E-JDNrhJZ7ZHX09Q&s");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-section {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.hero-section h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+}
+
+.hero-stat {
+  background: rgba(255, 255, 255, 0.14);
+  padding: 14px 18px;
+  border-radius: 10px;
+  min-width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.hero-stat strong {
+  font-size: 24px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background: #ff6600;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #05c71cc4;
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  padding: 12px 25px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: black;
+}
+
+.bike-section {
+  padding: 60px;
+  text-align: center;
+  background: white;
+}
+
+.bike-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.bike-card {
+  background: #f9fafb;
+  padding: 25px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.bike-subtitle {
+  max-width: 720px;
+  margin: 0 auto 18px;
+  color: #475569;
+}
+
+.bike-card img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.bike-description {
+  min-height: 48px;
+  color: #64748b;
+}
+
+.availability-text {
+  font-weight: 600;
+  color: #1d4ed8;
+}
+
+.rental-summary {
+  max-width: 800px;
+  margin: 20px auto 30px;
+  padding: 20px;
+  background: #eff6ff;
+  border-radius: 12px;
+  text-align: left;
+}
+
+.rental-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rental-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  background: white;
+  padding: 12px 14px;
+  border-radius: 8px;
+}
+
+.form-container {
+  width: 350px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #ff6b00;
+}
+
+.register-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.shutterstock.com/image-photo/red-sportbike-model-hand-on-260nw-2253438371.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.status-message {
+  margin: 12px auto 16px;
+  font-weight: 600;
+}
+
+.success-text {
+  color: #166534;
+}
+
+.error-text {
+  color: #dc2626;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .home {
+    padding: 20px;
+    height: auto;
+    min-height: calc(100vh - 80px);
+  }
+
+  .hero-section {
+    padding: 32px 24px;
+  }
+
+  .bike-section {
+    padding: 32px 20px;
+  }
+}
